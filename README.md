@@ -6,4 +6,6 @@ NEO-6M GPS ILI9486  STM32F401 worked 100%
 There is an LED on the NEO-6M GPS module that indicates the status of the ‘Position Fix’. It will blink at different rates depending on which state it is in:
 
 No blinking – it is searching for satellites.
+
+
 Blink every 1s – Position Fix is found (the module can see enough satellites).
